@@ -7,6 +7,8 @@ There are no special installation instructions needed to access this webpage. Op
 ## AUTHOR
 [inziani]https://github.com/inziani/pizza
 
+Photos used were taken by THomas tucker
+
 ## BDD
 ### User story
 The website should enable the user to perform the following activities
@@ -26,7 +28,7 @@ The website should enable the user to perform the following activities
 ## Contact Information
 ValentineRobai.Inziani@gmail.com
 
-## License Information
+### License Information
 
 Copyright [2020] [VALENTINE ROBAI INZIANI]
 
