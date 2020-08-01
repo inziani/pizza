@@ -51,7 +51,7 @@ margin-left: 100px;
 
 /* nav-slider section */
 .nav-slider-section {
-  background: rgba(0,0,0,0.8);
+  /* background: rgba(0,0,0,0.8); */
   position: fixed;
   top: 0;
   left: 0;
@@ -123,6 +123,7 @@ margin-left: 100px;
 .tabs-container {
   width: 90%;
   margin: auto;
+  padding-bottom: 20px;
   
 }
 
@@ -133,10 +134,58 @@ margin-left: 100px;
   color: white;
   padding: 6px 12px;
   font-size: 2.0em;
+  cursor: pointer;
 }
 .active-tab {
   border: 1px solid white;
   border-bottom: none;
+
+}
+.tab-details-granular {
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.hide-tab {
+  display: none;
+}
+
+.show-tab {
+  display: block;
+}
+
+.tabs-container p {
+  color: white;
+  font-size: 2.0em;
+}
+
+.menu-price {
+  float: right;
+
+}
+
+/* About great pizza */
+
+#about-great-pizza  {
+  background: #070707;
+  padding: 20px;
+
+}
+
+.about-great-pizza-info {
+  color: white;
+  text-align: center;
+}
+.address, .hours  {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.phone  {
+
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0;
 
 }
 
