@@ -50,3 +50,14 @@ cursor: pointer;
 .line:nth-child(1) {
   margin-top: 0;
 }
+
+/* nav-slider section */
+.nav-slider-section {
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+
