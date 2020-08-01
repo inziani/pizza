@@ -59,6 +59,7 @@ cursor: pointer;
   left: 0;
   height: 100%;
   width: 100%;
+  transform: translateX(-100%);
 }
 .close-nav-slider {
   border: none;
@@ -75,10 +76,38 @@ cursor: pointer;
   align-items: center;
   height: 100%;
 }
+.nav-links-container li {
+  text-align: center;
+  padding: 10px;
+
+}
 .nav-links  {
   text-decoration: none;
   color: white;
   font-size: 2.5em;
+}
+
+.open-nav{
+  animation: open-nav 0.5s forwards;
+}
+
+.close-nav{
+  animation: close-nav 0.5s forwards;
+
+}
+@keyframes open-nav{
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes close-nav{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
 }
 
 
