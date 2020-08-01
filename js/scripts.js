@@ -10,3 +10,13 @@ closeNavClick.onclick=function(){
   navSliderSection.classList.remove('openNav');
   navSliderSection.classList.add('closeNav');
 }
+
+// let tabDetailsHeaders=document.querySelectorAll('.tabDetailsHeaders');
+
+// tabDetailsHeaders.forEach(button);{
+//   button.onclick=changeTab;
+//   }
+//   function changeTab(){
+
+//   }
+// }

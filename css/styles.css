@@ -30,7 +30,7 @@ h2  {
   color: white;
   font-size: 4.5em;
 }
-
+/* 
 /* nav slider style */
 .nav-slider {
 padding: 15px;
@@ -68,6 +68,7 @@ margin-left: 100px;
   color: #f1c40f;
   font-size: 1.5em;
   padding: 15px;
+  cursor: pointer;
   
 }
 .nav-links-container {
@@ -108,11 +109,11 @@ margin-left: 100px;
   100%{
     transform: translateX(-100%);
   }
-}
+} 
 /* menu section */
 #menu {
-  background: #000;
-
+  background:transparent;
+  /* width: 40%; */
 }
 .menu-title {
   color: white;
@@ -127,7 +128,7 @@ margin-left: 100px;
   
 }
 
-.tab-details-headers  {
+.tabDetailsHeaders  {
   border: none;
   outline: none;
   background: transparent;
@@ -167,9 +168,9 @@ margin-left: 100px;
 /* About great pizza */
 
 #about-great-pizza  {
-  background: #070707;
-  padding: 20px;
-
+  background: transparent;
+  padding: 10px;
+  margin-top: 12%;
 }
 
 .about-great-pizza-info {
@@ -178,7 +179,7 @@ margin-left: 100px;
 }
 .address, .hours  {
   font-size: 1.5em;
-  text-align: center;
+  text-align:center
 }
 
 .phone  {
@@ -191,4 +192,5 @@ margin-left: 100px;
 .our-address  {
   padding: 20px;
 }
+
 
