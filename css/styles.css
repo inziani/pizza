@@ -7,19 +7,46 @@
   margin: 0;
   padding: 0;
 }
-
-.main-page  {
-  text-align: center;
+h2  {
+  margin: 0;
+}
+/* main page */
+#main-page  {
+  /* text-align: center; */
   background-image: url("../img/nik-owens-unsplash.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   color: white;
-  padding-top: 100px;
+  padding-top: 100px; */
 }
-.main-page h1{
-  font-size: 100px;
+.title-background {
+  background: #070707;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+.title  {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+/* nav slider style */
+.nav-slider {
+padding: 15px;
+cursor: pointer;
+
+}
+.line  {
+  background: white;
+  height: 3px;
+  margin: 5px;
+  width: 30px;
+}
+.line:nth-child(1) {
+  margin-top: 0;
 }
