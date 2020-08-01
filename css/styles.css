@@ -16,8 +16,6 @@ h2  {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
-
 }
 .title-background {
   background: #070707;
@@ -114,6 +112,8 @@ margin-left: 100px;
 #menu {
   background:transparent;
   /* width: 40%; */
+  /* margin-top: 10%; */
+
 }
 .menu-title {
   color: white;
@@ -168,27 +168,29 @@ margin-left: 100px;
 /* About great pizza */
 
 #about-great-pizza  {
-  background: transparent;
-  padding: 10px;
-  margin-top: 12%;
+  /* background: transparent; */
+  /* padding: 5px; */
+  margin-top: 10%;
+  background-color: black;
+  padding-top: 20px;
 }
 
 .about-great-pizza-info {
   color: white;
   text-align: center;
+  padding: 25px;
+  align-content: center;
 }
-.address, .hours  {
+.address, .hours{
   font-size: 1.5em;
   text-align:center
 }
 
 .phone  {
-
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 0;
-
-}
+} 
 .our-address  {
   padding: 20px;
 }
