@@ -157,7 +157,7 @@ margin-left: 100px;
 
 .tabs-container p {
   color: white;
-  font-size: 2.0em;
+  font-size: 1.5em;
 }
 
 .menu-price {
@@ -194,5 +194,22 @@ margin-left: 100px;
 .our-address  {
   padding: 20px;
 }
+.label-text {
+  font-size: 1.5em;
+  color: white;
+  padding: 15px;
+}
+.form-control-lg  {
+  padding: 20px;
+  font-size: 1.5em;
+  width: 30%;
+  justify-self: start;
+}
+.btn-group  {
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+
 
 
