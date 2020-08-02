@@ -1,22 +1,18 @@
-let openNavClick=document.querySelector('.nav-slider');
-let closeNavClick=document.querySelector('.close-nav-slider');
-let navSliderSection=document.querySelector('.nav-slider-section');
+$(document).ready(function() {
+$('#delivery').on('input', function() {
+  var input=$(this);
+  var message=$(this).val();
+  if (message==='Yes'){
+    alert('Please enter your delivery address');
+  }
+});
 
-openNavClick.onclick=function(){
-  navSliderSection.classList.remove('closeNav');
-  navSliderSection.classList.add('openNav');
-}
-closeNavClick.onclick=function(){
-  navSliderSection.classList.remove('openNav');
-  navSliderSection.classList.add('closeNav');
-}
-
-// let tabDetailsHeaders=document.querySelectorAll('.tabDetailsHeaders');
-
-// tabDetailsHeaders.forEach(button);{
-//   button.onclick=changeTab;
-//   }
-//   function changeTab(){
-
-//   }
-// }
+  $('#delveryAddress').change(function(event) {
+    var input=$(this);
+    var message=$(this).val();
+    alert('Your order will be delivered to' + ' '+ message);
+  });
+  
+  });
+ 
+  // alert("Your order will be delivered to your location")
