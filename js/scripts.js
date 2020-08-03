@@ -29,10 +29,8 @@ function myFunctiontwo(){
   } 
 }
 
-
   document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById("delivery").addEventListener("input", myFunction);
-
     document.getElementById("submit").addEventListener("click", myFunctiontwo);
   });
   
